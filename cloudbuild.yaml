@@ -13,7 +13,7 @@ steps:
       - "--container-image"
       - "gcr.io/$PROJECT_ID/helloworld:latest"
       - "--zone"
-      - "us-central1-a"
+      - "us-central1-c"
 
 
 images:
