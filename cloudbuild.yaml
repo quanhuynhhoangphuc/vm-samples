@@ -12,8 +12,6 @@ steps:
       - "klt-test-wwbe"
       - "--container-image"
       - "gcr.io/$PROJECT_ID/helloworld:latest"
-      - "--region"
-      - "us-central1"
 
 images:
   - "gcr.io/$PROJECT_ID/helloworld:latest"
