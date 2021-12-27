@@ -12,6 +12,9 @@ steps:
       - "test"
       - "--container-image"
       - "gcr.io/$PROJECT_ID/helloworld:latest"
+      - "--zone"
+      - "us-central1-a"
+
 
 images:
   - "gcr.io/$PROJECT_ID/helloworld:latest"
