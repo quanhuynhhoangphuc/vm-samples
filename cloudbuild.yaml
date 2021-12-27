@@ -9,7 +9,7 @@ steps:
       - "compute"
       - "instances"
       - "update-container"
-      - "klt-test-wwbe"
+      - "test"
       - "--container-image"
       - "gcr.io/$PROJECT_ID/helloworld:latest"
 
