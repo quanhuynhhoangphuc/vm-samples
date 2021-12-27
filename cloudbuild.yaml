@@ -9,11 +9,11 @@ steps:
       - "compute"
       - "instances"
       - "update-container"
-      - "test"
+      - "nginx-vm"
       - "--container-image"
       - "gcr.io/$PROJECT_ID/helloworld:latest"
       - "--zone"
-      - "us-central1-c"
+      - "asia-east1-a"
 
 
 images:
